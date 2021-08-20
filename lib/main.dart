@@ -71,7 +71,6 @@ Widget _search() => TextField(
           hintText: "Enter City Name",
           focusedBorder: OutlineInputBorder(
               borderSide: BorderSide(
-                color: Colors.white,
                 width: 32.0,
               ),
               borderRadius: BorderRadius.circular(25.0))),
@@ -86,13 +85,13 @@ Widget _cityDetail() => Padding(
           Text(
             "Murmansk Oblast, RU",
             style: TextStyle(
-                color: Colors.white, fontSize: 34, fontWeight: FontWeight.w300),
+                fontSize: 34, fontWeight: FontWeight.w300),
           ),
           SizedBox(height: 10.0),
           Text(
             "Friday, Mar 20, 2020",
             style: TextStyle(
-                color: Colors.white, fontSize: 18, fontWeight: FontWeight.w300),
+                fontSize: 18, fontWeight: FontWeight.w300),
           ),
         ],
       ),
@@ -248,7 +247,6 @@ Widget _myListView() {
                 Text(
                   '${days[index]}',
                   style: TextStyle(
-                      color: Colors.white,
                       fontSize: 22,
                       fontWeight: FontWeight.w300),
                 ),
@@ -258,7 +256,6 @@ Widget _myListView() {
                     Text(
                       "${Random().nextInt(20)} °F",
                       style: TextStyle(
-                          color: Colors.white,
                           fontSize: 30,
                           fontWeight: FontWeight.w300),
                     ),
